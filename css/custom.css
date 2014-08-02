@@ -1,0 +1,11 @@
+.rune {
+    cursor: pointer;
+}
+
+img {
+    max-height: 80px;
+}
+
+.runeContainer {
+    text-align: center;
+}
