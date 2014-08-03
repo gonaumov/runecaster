@@ -1,74 +1,99 @@
-<div class="row">
-    <div class="col-md-4 runeContainer">
-        <p data-ng-if="runes.t1">
-            <img data-ng-click="showDescription(runes.t1[0].rune_meanings)" class="rune" ng-src="./images/{{runes.t1[0].rune_image}}"/>
-            <p>{{runes.t1[0].rune_name}}</p>
-        </p>
-    </div>
-
-    <div class="col-md-4 runeContainer">
-        <p data-ng-if="runes.t2">
-            <img data-ng-click="showDescription(runes.t2[0].rune_meanings)" class="rune" ng-src="./images/{{runes.t2[0].rune_image}}"/>
-            <p>{{runes.t2[0].rune_name}}</p>
-        </p>
-    </div>
-
-    <div class="col-md-4 runeContainer">
-        <p data-ng-if="runes.t3">
-            <img data-ng-click="showDescription(runes.t3[0].rune_meanings)" class="rune" ng-src="./images/{{runes.t3[0].rune_image}}"/>
-            <p>{{runes.t3[0].rune_name}}</p>
-        </p>
-    </div>
-</div>
-<div class="row">
-    <div class="col-md-4 runeContainer">
-        <p data-ng-if="runes.t4">
-            <img data-ng-click="showDescription(runes.t4[0].rune_meanings)" class="rune" ng-src="./images/{{runes.t4[0].rune_image}}"/>
-            <p>{{runes.t4[0].rune_name}}</p>
-        </p>
-    </div>
-
-    <div class="col-md-4 runeContainer">
-        <p data-ng-if="runes.t5">
-            <img data-ng-click="showDescription(runes.t5[0].rune_meanings)" ng-src="./images/{{runes.t5[0].rune_image}}"/>
-            <p>{{runes.t5[0].rune_name}}</p>
-        </p>
-    </div>
-
-    <div class="col-md-4 runeContainer">
-        <p data-ng-if="runes.t6">
-            <img data-ng-click="showDescription(runes.t6[0].rune_meanings)" class="rune" ng-src="./images/{{runes.t6[0].rune_image}}"/>
-            <p>{{runes.t6[0].rune_name}}</p>
-        </p>
-    </div>
-</div>
-<div class="row">
-    <div class="col-md-4 runeContainer">
-        <p data-ng-if="runes.t7">
-            <img data-ng-click="showDescription(runes.t7[0].rune_meanings)" class="rune" ng-src="./images/{{runes.t7[0].rune_image}}"/>
-            <p>{{runes.t7[0].rune_name}}</p>
-        </p>
-    </div>
-
-    <div class="col-md-4 runeContainer">
-        <p data-ng-if="runes.t8">
-            <img data-ng-click="showDescription(runes.t8[0].rune_meanings)" class="rune" ng-src="./images/{{runes.t8[0].rune_image}}"/>
-            <p>{{runes.t8[0].rune_name}}</p>
-        </p>
-    </div>
-    <div class="col-md-4 runeContainer">
-        <p data-ng-if="runes.t9">
-            <img data-ng-click="showDescription(runes.t9[0].rune_meanings)" class="rune" ng-src="./images/{{runes.t9[0].rune_image}}"/>
-            <p>{{runes.t9[0].rune_name}}</p>
-        </p>
-    </div>
-</div>
-</div>
-</div>
-<a href="index.html" class="btn btn-primary">Ask new question</a>
 <div class="jumbotron">
-    <h5>Click on any of the runes to see a summary of its meanings.</h5>
-    <h5>{{spread.spred_description}}</h5>
-    <h5 data-ng-show="runeDescription">
+    <h6>Click on any of the runes to see a summary of its meanings.</h6>
+</div>
+<div class="jumbotron">
+    <div class="row">
+        <div class="col-md-4 text-center">
+            <p data-ng-if="runes.t1">
+                <img data-ng-click="showDescription(runes.t1[0].rune_meanings)" class="rune"
+                     ng-src="./images/{{runes.t1[0].rune_image}}"/>
+
+            <p>{{runes.t1[0].rune_name}}</p>
+            </p>
+        </div>
+
+        <div class="col-md-4 text-center">
+            <p data-ng-if="runes.t2">
+                <img data-ng-click="showDescription(runes.t2[0].rune_meanings)" class="rune"
+                     ng-src="./images/{{runes.t2[0].rune_image}}"/>
+
+            <p>{{runes.t2[0].rune_name}}</p>
+            </p>
+        </div>
+
+        <div class="col-md-4 text-center">
+            <p data-ng-if="runes.t3">
+                <img data-ng-click="showDescription(runes.t3[0].rune_meanings)" class="rune"
+                     ng-src="./images/{{runes.t3[0].rune_image}}"/>
+
+            <p>{{runes.t3[0].rune_name}}</p>
+            </p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-4 text-center">
+            <p data-ng-if="runes.t4">
+                <img data-ng-click="showDescription(runes.t4[0].rune_meanings)" class="rune"
+                     ng-src="./images/{{runes.t4[0].rune_image}}"/>
+
+            <p>{{runes.t4[0].rune_name}}</p>
+            </p>
+        </div>
+
+        <div class="col-md-4 text-center">
+            <p data-ng-if="runes.t5">
+                <img data-ng-click="showDescription(runes.t5[0].rune_meanings)" class="rune"
+                     ng-src="./images/{{runes.t5[0].rune_image}}"/>
+
+            <p>{{runes.t5[0].rune_name}}</p>
+            </p>
+        </div>
+
+        <div class="col-md-4 text-center">
+            <p data-ng-if="runes.t6">
+                <img data-ng-click="showDescription(runes.t6[0].rune_meanings)" class="rune"
+                     ng-src="./images/{{runes.t6[0].rune_image}}"/>
+
+            <p>{{runes.t6[0].rune_name}}</p>
+            </p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-4 text-center">
+            <p data-ng-if="runes.t7">
+                <img data-ng-click="showDescription(runes.t7[0].rune_meanings)" class="rune"
+                     ng-src="./images/{{runes.t7[0].rune_image}}"/>
+
+            <p>{{runes.t7[0].rune_name}}</p>
+            </p>
+        </div>
+
+        <div class="col-md-4 text-center">
+            <p data-ng-if="runes.t8">
+                <img data-ng-click="showDescription(runes.t8[0].rune_meanings)" class="rune"
+                     ng-src="./images/{{runes.t8[0].rune_image}}"/>
+
+            <p>{{runes.t8[0].rune_name}}</p>
+            </p>
+        </div>
+        <div class="col-md-4 text-center">
+            <p data-ng-if="runes.t9">
+                <img data-ng-click="showDescription(runes.t9[0].rune_meanings)" class="rune"
+                     ng-src="./images/{{runes.t9[0].rune_image}}"/>
+
+            <p>{{runes.t9[0].rune_name}}</p>
+            </p>
+        </div>
+    </div>
+</div>
+</div>
+</div>
+<div class="jumbotron">
+    <a href="index.html" class="btn btn-primary">Ask new question</a>
+</div>
+<div class="jumbotron">
+    <h6>{{spread.spred_description}}</h6>
+    <h6 data-ng-show="runeDescription">
         {{runeDescription}}
-    </h5>
+    </h6>
+</div>

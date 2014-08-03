@@ -1,8 +1,11 @@
+<div class="jumbotron">
+    <h4>This is a small runic oracle created by me with the help of AngularJS and Twitter Bootstrap</h4>
+</div>
 <div class="well bs-component">
     <form class="form-horizontal" data-ng-submit="submitQuestionForm()">
         <fieldset>
             <legend>Please choose spread, type your question and click on
-                &laquo;Cast Stones&raquo; button.</legend>
+               Cast Stones button.</legend>
         </fieldset>
         <div class="form-group">
             <label for="spreadName" class="col-lg-2 control-label">Spread name</label>
@@ -20,11 +23,11 @@
         </div>
         <div class="form-group">
             <div class="col-lg-10 col-lg-offset-2">
-                <button type="submit" class="btn btn-primary">&laquo;Cast Stones&raquo;</button>
+                <button type="submit" class="btn btn-primary">Cast Stones</button>
             </div>
         </div>
     </form>
 </div>
 <div class="jumbotron" data-ng-if="spreadName">
-    <h4>{{spreadName.spred_description}}</h4>
+    <h6>{{spreadName.spred_description}}</h6>
 </div>
