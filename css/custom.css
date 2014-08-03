@@ -2,3 +2,7 @@
     cursor: pointer;
     max-height: 60px;
 }
+
+.runeDescriptionBottom {
+    border: 1px solid #ffffff;
+}
