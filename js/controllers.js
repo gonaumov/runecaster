@@ -32,7 +32,6 @@ runecasterControllers.controller('ResultCtrl', ['$scope', '$routeParams', '$http
                 };
 
                 $http.get('./data/data.json').success(function (data) {
-
                     angular.forEach($scope.spread["spread_cells"], function (value) {
                         var index = randomIntFromInterval(0, data['rune'].length - 1);
                         runes[value] = data['rune'].splice(index, 1);
