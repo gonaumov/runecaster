@@ -5,4 +5,7 @@
 
 .runeDescriptionBottom {
     border: 1px solid #ffffff;
+    padding: 4px;
+    margin: 4px;
+    clear: both;
 }
