@@ -1,0 +1,11 @@
+.rune {
+    cursor: pointer;
+    max-height: 60px;
+}
+
+.runeDescriptionBottom {
+    border: 1px solid #ffffff;
+    padding: 4px;
+    margin: 4px;
+    clear: both;
+}
