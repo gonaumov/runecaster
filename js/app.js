@@ -4,7 +4,8 @@
 
 var runecasterApp = angular.module('runecasterApp', [
   'ngRoute',
-  'runecasterControllers'
+  'runecasterControllers',
+  'runecasterFilters'
 ]);
 
 runecasterApp.config(['$routeProvider',

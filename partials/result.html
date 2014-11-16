@@ -4,7 +4,7 @@
 <div class="jumbotron" data-ng-if="runeDescription">
 	 <div class="row">
         <div class="col-md-12">
-			 {{runeDescription}}
+			 {{runeDescription | removeBackSlash}}
 	    </div>
 	 </div>   
 </div>
@@ -86,7 +86,7 @@
     </div>
     </div>
     <div class="col-md-3">
-			{{spread.spred_description}}
+			{{spread.spred_description | removeBackSlash}}
     </div>
     </div>
 </div>
